@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
-        .package(url: "https://github.com/onesdkspm/BTScreenShot.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/BTScreenShot.git", from: "2.0.2"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -34,8 +34,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityScreenShotObserver",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityScreenShotObserver/1.3.0-dev-1474876/UnityScreenShotObserver.xcframework.zip",
-            checksum: "f7c5a09bd17756118559f89118cb1f0fca650b62ba17ad425be8594b4fa75661"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityScreenShotObserver/1.3.0-dev-1480227/UnityScreenShotObserver.xcframework.zip",
+            checksum: "3351f4b9dae7d543326da84de567c744fc325bbf7938917e90c70579a4141781"
         )
     ]
 )
