@@ -34,8 +34,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityScreenShotObserver",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityScreenShotObserver/2.0.3-dev-1481477/UnityScreenShotObserver.xcframework.zip",
-            checksum: "32445dae0fe544629fe9125f3ea45c85a5a982eafeb1dc9c75919e0a1f2c958c"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityScreenShotObserver/2.0.3-dev-1482643/UnityScreenShotObserver.xcframework.zip",
+            checksum: "1e42eb00f939bf51bf0885e556f11d9f7982b9b98229c109e168d2ce615b7800"
         )
     ]
 )
